@@ -1,0 +1,123 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100vh;
+}
+
+body {
+    background: #000 url(../images/stars.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+input,
+button {
+    font-family: 'Rajdhani', sans-serif;
+    border:0;
+    outline: 0;
+}
+
+.form-container {
+    width: 70%;
+    max-width: 430px;
+    height: 500px;
+    padding: 35px 20px;
+    color: #fff;
+    text-align: center;
+    background: #000;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(98, 7, 245, 0.808);
+}
+
+.logo {
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+form {
+    width: 100%;
+}
+
+.input-block {
+    width: 100%;
+    padding: 5px 10px;
+    background: transparent;
+    border:0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.486);
+    margin-bottom: 25px;
+    outline: none;
+    font-size:18px;
+    color: #04B404;
+    text-align: ;
+    border-radius: 3px;
+}
+
+.input-block:focus {
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+form button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-weight: 600;
+    color:#fff;
+    background: #04B404;
+    cursor: pointer;
+    transition:  0.3s;
+}
+
+form button:hover {
+    background: #00FF00;
+}
+
+.divisor {
+    display: block;
+    margin: 25px 0;
+    position: relative;
+}
+
+.divisor:before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 35%;
+    height: 1px;
+    background: #fff;
+}
+
+.divisor:after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 35%;
+    height: 1px;
+    background: #fff;
+}
+
+i.fa-facebook-f {
+    margin-right: 5px;
+}
+
+.facebook , i.fa-facebook-f {
+    color:#3c579e;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.facebook:hover {
+    text-decoration: underline;
+}
